@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/cameraBTN"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="From Camera"
+        android:layout_margin="5dp"
+        android:background="@drawable/button"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/galleryBTN"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="From Gallary"
+        android:layout_margin="5dp"
+        android:background="@drawable/button"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>

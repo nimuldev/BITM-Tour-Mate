@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:background="#2e003e"
+    android:layout_margin="3dp"
+    android:orientation="vertical"
+    tools:context=".Fragment.NearbyFragment">
+
+
+    <LinearLayout
+
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:background="#E3E7F1"
+            android:id="@+id/bankIv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/bank"
+            android:layout_margin="2dp"
+            />
+
+        <ImageView
+            android:background="#E3E7F1"
+            android:id="@+id/atmIv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/atm"
+            android:layout_margin="2dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <ImageView
+            android:background="#F4DADA"
+            android:id="@+id/mosqueIv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/mosque"
+            android:layout_margin="2dp"
+            />
+
+        <ImageView
+            android:background="#F4DADA"
+            android:id="@+id/hospitalIv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/hospital"
+            android:layout_margin="2dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:id="@+id/educationIv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#47717A"
+            android:src="@drawable/graduated"
+            android:layout_margin="2dp"
+            />
+
+        <ImageView
+            android:id="@+id/parkIv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/park"
+            android:layout_margin="2dp"
+            android:background="#47717A"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:id="@+id/pliceIv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/police"
+            android:layout_margin="2dp"
+            android:background="#38505C"
+            />
+
+        <ImageView
+            android:id="@+id/cafeIv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/dish"
+            android:layout_margin="2dp"
+            android:background="#38505C"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

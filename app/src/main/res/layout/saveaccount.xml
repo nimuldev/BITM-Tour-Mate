@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:background="#2e003e"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20sp"
+       android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#F4F2F5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do You Want to Save Your Account"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+     >
+
+    <Button
+        android:text="Save"
+        android:layout_margin="40dp"
+        android:textAllCaps="false"
+        android:id="@+id/saveBtn"
+        android:textColor="#2e003e"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:background="#ffff"
+        />
+    <Button
+        android:textColor="#2e003e"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="#ffff"
+        android:id="@+id/noBtn"
+        android:layout_margin="40dp"
+        android:textAllCaps="false"
+        android:layout_width="0dp"
+        android:text="No"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        />
+    </LinearLayout>
+</LinearLayout>

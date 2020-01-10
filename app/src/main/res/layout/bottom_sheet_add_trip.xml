@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:text="Add Trip"
+       android:textColor="#2e003e"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:layout_margin="5dp"
+       android:gravity="center"
+       android:layout_height="wrap_content">
+
+   </TextView>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/tripnameET"
+        android:layout_width="match_parent"
+        android:hint="Trip Name"
+        android:textSize="16sp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/tripdescriptionET"
+        android:layout_width="match_parent"
+        android:hint="Trip Description"
+        android:textSize="16sp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/tripstartdateET"
+        android:layout_width="match_parent"
+        android:hint="Trip Start Date"
+        android:textSize="16sp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/tripenddateET"
+        android:layout_width="match_parent"
+        android:hint="Trip End Date"
+        android:textSize="16sp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/savetripBtn"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:text="Save Your Trip"
+        android:textSize="18dp"
+        android:background="@drawable/button"
+        android:textColor="#ffff"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+
+</LinearLayout>

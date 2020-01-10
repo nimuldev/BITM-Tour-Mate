@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+
+        android:title="Trips"
+        android:icon="@drawable/tour"
+        android:id="@+id/nav_trips"
+        >
+
+
+    </item>
+
+    <item
+
+        android:title="Nearby"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:id="@+id/nav_nearby"
+        >
+
+
+    </item>
+
+
+    <item
+
+        android:title="Weather"
+        android:icon="@drawable/ic_rain_black_cloud_with_raindrops_falling_down"
+        android:id="@+id/nav_weather"
+        >
+
+
+    </item>
+</menu>

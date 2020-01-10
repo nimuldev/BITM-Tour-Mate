@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignInActivity">
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailET"
+        android:layout_margin="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordET"
+        android:layout_margin="10dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="16sp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/signInBtn"
+        android:text="Sign In"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textSize="18dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:layout_weight="0.5"
+        android:text="Don't have any account?"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#0928D1"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.5"
+        android:text="@string/sign_up"
+        android:onClick="SignUp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
+
+
+</LinearLayout>

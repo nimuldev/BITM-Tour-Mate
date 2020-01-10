@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9CC2D0"
+    tools:context=".Weather.WeatherActivity">
+
+    <LinearLayout
+android:background="#2e003e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+
+
+
+        <ImageView
+            android:id="@+id/weatherCurrentIconIvId"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/cityStatusCurrentTvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textColor="#ffff"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/cityNameCurrentTvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+
+
+                <TextView
+                    android:id="@+id/windCurrentWeitherTvId"
+                    android:layout_width="wrap_content"
+                    android:textColor="#ffff"
+                    android:layout_height="wrap_content"
+
+                    android:text="Wind:2.6km/h"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/humidityCurrentWeitherTvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity: 88%"
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+
+                android:id="@+id/tempCurrentWeitherTvId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="30*C"
+                android:textColor="#ffff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3d1e6d"
+        android:layout_weight="4">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/weatherRecyclerViewId"
+            />
+    </LinearLayout>
+
+</LinearLayout>

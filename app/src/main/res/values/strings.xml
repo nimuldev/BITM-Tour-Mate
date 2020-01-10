@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="sign_up"><u>Sign Up</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="cost_arrays">
+        <item>Select Expanse</item>
+        <item>Shoping Cost</item>
+        <item>House Rent Cost</item>
+        <item>Hand Cost</item>
+        <item>Food Cost</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="appid">a0e0d52b2dbb8228d3f19466bb398fd0</string>
+    <string name="appid1">a0e0d52b2dbb8228d3f19466bb398fd0</string>
+
+</resources>

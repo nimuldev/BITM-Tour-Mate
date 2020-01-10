@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#3d1e6d"
+        android:layout_height="350dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/removeIv"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/rubbish"
+        />
+
+
+       <ImageView
+           android:id="@+id/memoryimageIV"
+           android:layout_width="match_parent"
+           android:src="@drawable/ic_launcher_background"
+           android:layout_margin="25dp"
+           android:layout_height="230dp">
+
+       </ImageView>
+
+
+    <TextView
+        android:id="@+id/memorydetailsTV"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/memoryimageIV"
+        android:layout_width="match_parent"
+        android:text="Trip Details"
+        android:textColor="#ffff"
+        android:layout_marginStart="5dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
